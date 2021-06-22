@@ -1,7 +1,8 @@
 import React from 'react';
+import DatePicker from 'components/DatePicker/DatePicker';
 
 const App: React.FC = () => {
-  return <div>Date picker</div>;
+  return <DatePicker />;
 };
 
 export default App;
